@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Codeforces Test Case Extractor",
+    "version": "1.0",
+    "description": "Extract test cases from Codeforces problems",
+    "permissions": [
+      "storage",
+      "activeTab"
+    ],
+    "host_permissions": [
+      "*://*.codeforces.com/*"
+    ],
+    "content_scripts": [{
+      "matches": ["*://*.codeforces.com/problemset/problem/*", "*://*.codeforces.com/contest/*"],
+      "js": ["content.js"]
+    }]
+}
