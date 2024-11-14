@@ -8,9 +8,6 @@ A Chrome extension designed to make coding practice on Codeforces easier by extr
 - Notifies the user of successful extraction or any errors encountered.
 - Modern, user-friendly button design with hover effects.
 
-```bash
-git clone https://github.com/yourusername/Codeforces-Test-Case-Extractor.git
-
 ## Installation and Usage
 
 1. Clone the git repository:
@@ -52,3 +49,8 @@ git clone https://github.com/yourusername/Codeforces-Test-Case-Extractor.git
 **Note:**
 - Make sure the input file you use is placed in an accessible location, not in a place where system permissions are required.
 - If you want to change the input file address, delete the entry from the IndexedDB in Chrome storage. You can learn how to do this by searching on Google.
+
+```bash
+git clone https://github.com/yourusername/Codeforces-Test-Case-Extractor.git
+
+
